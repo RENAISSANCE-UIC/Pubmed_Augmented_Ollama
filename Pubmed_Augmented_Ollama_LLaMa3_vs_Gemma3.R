@@ -40,7 +40,7 @@ search_pubmed <- function(query){
 
 summarize_pubmed <- function(query){ 
 
-  # Use llama3.1 as a summarizer
+  # Use llama3.2 as a summarizer
   pmb_model <- "llama3.2"
   
   pmb_system_prompt <- "You are a medical research assistant that searches Pubmed and
